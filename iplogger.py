@@ -10,7 +10,7 @@ system("cls")
 init(convert=True)
 print(Fore.GREEN + "Loading.. ")
 #username of the webhook
-user = "Log"
+user = "USERNAME"
 #avatar of the webhook 
 avatar = "https://64.media.tumblr.com/4251274b58928d74cb7821452eed9f87/19a1d45f32ed62d4-e1/s1280x1920/fef7d91e691090c0a86be11d33cdc75ec9fe0442.gifv"
 #Website to get the information
