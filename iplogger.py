@@ -78,16 +78,3 @@ send = r.post(webhook, data=json.dumps(loc), headers=headers,json=loc)
 send= r.post(webhook, data=json.dumps(org), headers=headers,json=org)
 send = r.post(webhook, data=json.dumps(postal), headers=headers,json=postal)
 send = r.post(webhook, data=json.dumps(timezone), headers=headers,json=timezone)
-
-embed = {
-    "description": "text in embed",
-    "title": "embed title"
-    }
-
-data = {
-    "content": "message content",
-    "username": "custom username",
-    "embeds": [
-        embed
-        ],
-}
