@@ -1,6 +1,13 @@
 #Made by opw and yes wack
 #Run the script and put your webhook and then obfuscate it with https://development-tools.net/python-obfuscator
 #modules
+credits = """
+    Made By Opw
+    
+    Discord = "opw#7777"
+
+    Github = "github.com/Opwwww 
+"""
 from colorama import init,Fore
 from os import system
 import requests as r,json
