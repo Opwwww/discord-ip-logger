@@ -6,7 +6,7 @@ credits = """
     
     Discord = "opw#7777"
 
-    Github = "github.com/Opwwww 
+    Github = "github.com/Opwwww"
 """
 from colorama import init,Fore
 from os import system
