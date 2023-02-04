@@ -2,7 +2,7 @@
 #Run the script and put your webhook and then obfuscate it with https://development-tools.net/python-obfuscator
 #modules
 credits = """
-    Made By Opw
+    Made By Opw and Wack the black beaner
     
     Discord = "opw#7777"
 
