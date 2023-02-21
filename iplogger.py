@@ -3,10 +3,6 @@
 #modules
 credits = """
     Made By Opw and Wack the black beaner
-    
-    Discord = "opw#7777"
-
-    Github = "github.com/Opwwww"
 """
 from colorama import init,Fore
 from os import system
